@@ -21,3 +21,12 @@ go install github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
 go install github.com/projectdiscovery/katana/cmd/katana@latest
 go install github.com/hakluke/hakrawler@latest
 sudo apt install whatweb gobuster arjun -y
+
+## Usage
+TARGET="dashlane.com"
+chmod +x web_recon.sh
+./web_recon.sh
+
+## Output
+All recon data is saved in structured folders under recon-[target].
+
